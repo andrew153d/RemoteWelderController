@@ -1,7 +1,7 @@
 # Project Name
 
 Brief project description and purpose.
-<img src="media/render.png" alt="Project Image" width="300" height="200">
+<img src="media/render.png" alt="Project Image" width="100">
 ## Table of Contents
 - [Project Name](#project-name)
   - [Introduction](#introduction)
