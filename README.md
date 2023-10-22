@@ -1,25 +1,15 @@
-# Project Name
+# Wireless Knob Controller
 
-Brief project description and purpose.
+A remote control and remote stepper driver intended for wirelessly controlling a welder.
 
 <img src="media/render.png" alt="Project Image" width="300">
 
-## Table of Contents
-- [Project Name](#project-name)
-  - [Introduction](#introduction)
-  - [Usage](#usage)
-  - [License](#license)
 
-## Introduction
-
-Explain what your project does, its goals, and why it exists. Provide some context for why someone might want to use it.
 
 ## Usage
 
-Show examples and explain how to use your project. Use code samples and screenshots if necessary.
+This device uses ESPNOW to transmit a potentiometer reading to the remote stepper motor driver. The enclosure allows the stepper motor and driver to be magenetically attached to the face and attached to the knob by means of a belt. The circular clamp is designed to fit around a 60mm knob.
 
-## License
 
-State the license under which your project is released. This helps users understand what they can and cannot do with your project.
 
 
