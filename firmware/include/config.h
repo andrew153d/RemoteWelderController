@@ -16,7 +16,7 @@
 #define ACCEL 3000
 #define MAX_SPEED 3000
 #define MIN_ERROR_FOR_MOVEMENT 50
-#define RANGE 4000
+#define RANGE 2300
 #define ALPHA 0.001
 
 
