@@ -476,7 +476,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Transmitter.step",
+      "step": "../../../../Downloads/Transmitter.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
