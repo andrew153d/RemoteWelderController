@@ -1,4 +1,4 @@
-22562739208378072
+22564449911780204
 18650
 254 clip
 
@@ -2281,6 +2281,13 @@ SW PUSH SMALL Tactile C&K
 0
 4
 2
+Button_THT
+SW2_1825027-C_TEC
+
+1825027-8 
+0
+4
+4
 Buzzer_Beeper
 Buzzer_12x9.5RM7.6
 Generic Buzzer, D12mm height 9.5mm with RM7.6mm
