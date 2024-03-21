@@ -478,7 +478,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Receiver.step",
+      "step": "../../../../Downloads/Receiver.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

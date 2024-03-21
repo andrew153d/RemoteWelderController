@@ -2610,8 +2610,6 @@
 
   (no_connect (at 152.4 40.005) (uuid 0170eb7a-5a3e-4418-9a2b-fd143794ca75))
   (no_connect (at 152.4 37.465) (uuid 06ad3704-99f6-4dcf-916c-0301d6873f8f))
-  (no_connect (at 268.605 53.34) (uuid 0e117931-360d-47c2-bc09-481978ffd055))
-  (no_connect (at 268.605 25.4) (uuid 13b00a86-686e-4d80-9d98-4164012e9c2d))
   (no_connect (at 268.605 58.42) (uuid 1a7ed828-0477-4c7c-a691-29326374863f))
   (no_connect (at 42.545 187.325) (uuid 31abb7eb-ecd2-439e-a24b-9ec3087d8e48))
   (no_connect (at 46.355 55.245) (uuid 4c8202b0-fb0c-4b91-a8c4-88d06b77f9c3))
@@ -2623,21 +2621,21 @@
   (no_connect (at 104.14 34.29) (uuid 9dd3a4f9-90a2-4efa-92fa-58378074de0f))
   (no_connect (at 104.14 31.75) (uuid a261249a-e42b-4451-8d66-d1d44217c725))
   (no_connect (at 268.605 68.58) (uuid a6fc2e60-c7ad-4d9d-93f0-9b16e4e6a45a))
-  (no_connect (at 268.605 27.94) (uuid ace202ab-df09-41b1-aab7-7f193a5ef264))
   (no_connect (at 224.79 150.495) (uuid b40eddcd-adb1-4b4f-af57-8d68267d4e98))
-  (no_connect (at 268.605 55.88) (uuid b97f3144-1255-41be-824e-cf1302b90f14))
   (no_connect (at 80.645 170.815) (uuid bc26696e-3919-4381-816d-6c6be29d7d7b))
   (no_connect (at 80.645 168.275) (uuid c130839e-db3e-4fa3-b18a-cfd095502384))
   (no_connect (at 268.605 66.04) (uuid cb819c3a-e6bf-4f33-b78f-9f1e683be5c7))
-  (no_connect (at 268.605 30.48) (uuid d2a29843-2c85-46ba-a786-4b5a2e7c9d7d))
   (no_connect (at 268.605 63.5) (uuid d3f419e4-66c4-4a85-80de-8b72311a540e))
-  (no_connect (at 268.605 50.8) (uuid d3f6b357-2311-4f4d-b72c-e612e2e7af21))
   (no_connect (at 222.25 150.495) (uuid de447dcb-f2fb-4d59-b025-1b84308fae78))
   (no_connect (at 268.605 60.96) (uuid f37c9f02-3beb-4f91-b505-5e46568d6b7a))
 
   (wire (pts (xy 106.045 131.445) (xy 108.585 131.445))
     (stroke (width 0) (type default))
     (uuid 007aac91-c2ae-4b39-aa28-9031ddf3da9b)
+  )
+  (wire (pts (xy 198.12 131.445) (xy 199.39 131.445))
+    (stroke (width 0) (type default))
+    (uuid 008a3d77-bbf9-4567-9047-d070fb42944d)
   )
   (wire (pts (xy 134.62 128.905) (xy 138.43 128.905))
     (stroke (width 0) (type default))
@@ -2650,6 +2648,10 @@
   (wire (pts (xy 143.51 174.625) (xy 143.51 177.165))
     (stroke (width 0) (type default))
     (uuid 037836ea-bcd0-4d3c-962a-35582882b2b8)
+  )
+  (wire (pts (xy 194.945 126.365) (xy 199.39 126.365))
+    (stroke (width 0) (type default))
+    (uuid 0719dd77-1fa3-4b9f-99f1-d1f111f64579)
   )
   (wire (pts (xy 233.045 30.48) (xy 225.425 30.48))
     (stroke (width 0) (type default))
@@ -2731,6 +2733,10 @@
     (stroke (width 0) (type default))
     (uuid 19c5c40b-9604-4512-ac5f-eb0ecdee35de)
   )
+  (wire (pts (xy 186.69 126.365) (xy 189.865 126.365))
+    (stroke (width 0) (type default))
+    (uuid 1a6c90db-b806-4308-857f-f9fcce3bd984)
+  )
   (wire (pts (xy 65.405 48.895) (xy 65.405 51.435))
     (stroke (width 0) (type default))
     (uuid 1af01dca-c59e-45c3-beaf-19431592d94e)
@@ -2774,10 +2780,6 @@
   (wire (pts (xy 205.105 115.57) (xy 209.55 115.57))
     (stroke (width 0) (type default))
     (uuid 24635bc2-0c4d-4f6c-8367-ce0c48b2cee1)
-  )
-  (wire (pts (xy 185.42 131.445) (xy 199.39 131.445))
-    (stroke (width 0) (type default))
-    (uuid 25012fdb-3bcf-4b24-a167-fa12be844fe7)
   )
   (wire (pts (xy 132.08 37.465) (xy 132.08 41.275))
     (stroke (width 0) (type default))
@@ -2999,6 +3001,10 @@
     (stroke (width 0) (type default))
     (uuid 68067651-0949-44b3-bbf6-dc5034ca19dd)
   )
+  (wire (pts (xy 184.785 128.905) (xy 199.39 128.905))
+    (stroke (width 0) (type default))
+    (uuid 69b9e0ff-5a91-4d91-9777-6f4ff7e54d02)
+  )
   (wire (pts (xy 108.585 131.445) (xy 112.395 131.445))
     (stroke (width 0) (type default))
     (uuid 6a494a72-3440-4ec8-9514-b48a76c23a69)
@@ -3091,6 +3097,10 @@
     (stroke (width 0) (type default))
     (uuid 845cc5f2-35ad-42e5-8f99-1335fc57a4ca)
   )
+  (wire (pts (xy 186.69 123.825) (xy 186.69 126.365))
+    (stroke (width 0) (type default))
+    (uuid 84a0d703-f8c4-4628-b172-2a46c4765619)
+  )
   (wire (pts (xy 109.22 51.435) (xy 109.22 34.925))
     (stroke (width 0) (type default))
     (uuid 860dcfb9-46e8-4a8f-b849-dd6701e9855c)
@@ -3115,7 +3125,7 @@
     (stroke (width 0) (type default))
     (uuid 8c11c499-c3d1-4571-ad63-dbfb7e50c25c)
   )
-  (wire (pts (xy 90.17 46.355) (xy 96.52 46.355))
+  (wire (pts (xy 90.17 46.355) (xy 95.885 46.355))
     (stroke (width 0) (type default))
     (uuid 8daf3100-e92a-49b8-8dfd-1feba34e0b23)
   )
@@ -3307,7 +3317,7 @@
     (stroke (width 0) (type default))
     (uuid d670a67b-6afa-422a-8bc7-4b3142561d37)
   )
-  (wire (pts (xy 103.505 46.355) (xy 101.6 46.355))
+  (wire (pts (xy 103.505 46.355) (xy 100.965 46.355))
     (stroke (width 0) (type default))
     (uuid d88f16f6-9788-4cac-a571-dc9fc5f82fd4)
   )
@@ -3407,7 +3417,7 @@
     (stroke (width 0) (type default))
     (uuid fdcf799f-7b0e-4edf-bdc7-5f9fd00f3479)
   )
-  (wire (pts (xy 107.315 46.355) (xy 103.505 46.355))
+  (wire (pts (xy 106.045 46.355) (xy 103.505 46.355))
     (stroke (width 0) (type default))
     (uuid ff0b0b14-3d39-4b40-98d9-53baf6c775bb)
   )
@@ -3476,7 +3486,7 @@
     (uuid ec2ceb9a-a8f2-49b5-aaf0-e874ce39b9aa)
   )
 
-  (label "BAT_+" (at 162.56 90.17 0) (fields_autoplaced)
+  (label "BAT+" (at 162.56 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 011f346b-cf80-4466-8841-6b7e5f39a601)
   )
@@ -3492,7 +3502,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0a511f71-d0c2-4f69-861b-29d9091a7137)
   )
-  (label "VSYS" (at 107.315 46.355 180) (fields_autoplaced)
+  (label "VSYS" (at 106.045 46.355 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0b14d130-a7f1-4094-b07d-c229c3779d6e)
   )
@@ -3504,13 +3514,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0e544caa-7fbd-4526-b318-2ac26cb60950)
   )
-  (label "MS3" (at 268.605 35.56 0) (fields_autoplaced)
+  (label "MS3" (at 268.605 40.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 10bfd7fc-859d-426e-85ae-c69c001a3192)
   )
   (label "MS3" (at 199.39 139.065 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 18e4f6df-cbe3-4303-bef6-84637190f50a)
+  )
+  (label "SW" (at 88.9 34.29 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 1bc42cda-6d56-43d6-8c9f-26036cb36d3a)
   )
   (label "STAT" (at 40.64 99.06 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3528,8 +3542,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1fb18256-18e7-44d7-8c50-edb7198e909a)
   )
-  (label "QON" (at 233.045 38.1 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "QON" (at 268.605 27.94 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 21d3596f-abf8-4c2a-8bd3-a0d834fb7bb9)
   )
   (label "OUT1A" (at 235.585 123.825 0) (fields_autoplaced)
@@ -3544,7 +3558,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 287e2676-2696-4bc1-b7cc-5149c79467a6)
   )
-  (label "STEP" (at 268.605 43.18 0) (fields_autoplaced)
+  (label "STEP" (at 268.605 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2a79be6b-f10e-4678-baa8-7647061c7830)
   )
@@ -3572,9 +3586,9 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 330396f6-0478-442d-ac43-242cb3e1eee1)
   )
-  (label "MOT_nEN" (at 199.39 128.905 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3c0db183-5b5b-4863-87b2-09a5d9905f8e)
+  (label "M4" (at 268.605 38.1 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3629b023-a613-4472-b2fe-23297dc63ec0)
   )
   (label "DIR" (at 199.39 121.285 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3584,7 +3598,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3dfd20e2-f370-42c6-905c-9193a556ac03)
   )
-  (label "ADDRS_LED" (at 268.605 48.26 0) (fields_autoplaced)
+  (label "ADDRS_LED" (at 268.605 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3efb4ca7-b542-4b8e-a54d-37bd6c0f49b7)
   )
@@ -3600,8 +3614,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4531c5e3-4df6-4efe-844d-4a5ce0627996)
   )
-  (label "MS1" (at 233.045 55.88 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "MS1" (at 268.605 33.02 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4607951f-9097-44ee-b22d-5ae3d8e7f413)
   )
   (label "REGN" (at 86.995 117.475 180) (fields_autoplaced)
@@ -3636,11 +3650,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 50797a65-8d6d-4f79-aaa3-27f0bf047669)
   )
+  (label "S3" (at 233.045 50.8 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 53fe39ca-af70-41a5-83d4-bbe5d6609080)
+  )
   (label "VUSB" (at 39.37 120.015 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54e4dcb4-d972-4e6d-8c3c-9bca9acfeba9)
   )
-  (label "BAT_+" (at 142.24 96.52 0) (fields_autoplaced)
+  (label "BAT+" (at 142.24 96.52 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 55b75ef0-b093-4edb-97b5-800debd090d0)
   )
@@ -3660,9 +3678,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5a5da32c-8908-4148-b9a8-52fe1ccb7e93)
   )
+  (label "C1" (at 233.045 48.26 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 5ae14838-8526-466d-a948-18c91104f99a)
+  )
   (label "VBAT" (at 81.915 146.685 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5d572efa-9002-4614-aa9a-259048d8f921)
+  )
+  (label "C3" (at 233.045 58.42 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 60f2c019-e6e9-4fb3-a67a-07709f270269)
   )
   (label "ADDRS_LED" (at 62.865 92.075 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3675,6 +3701,10 @@
   (label "VREF" (at 254.635 118.745 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 68a0cbe6-ce23-49b2-92c2-c42f7b7495f0)
+  )
+  (label "MOT_nSLEEP" (at 268.605 45.72 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6dd1f568-e21f-4b76-80cc-70e87a2f2067)
   )
   (label "ESP_RX" (at 127.635 97.79 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3696,6 +3726,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7876e2b2-6917-4eaa-95ff-e0f852549bb3)
   )
+  (label "C2" (at 233.045 45.72 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 79f8e742-49c7-4926-a655-2b24ae6ced35)
+  )
   (label "VCP" (at 250.19 144.145 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7b1cda5e-9b21-4029-8c0e-2e03859d9a08)
@@ -3704,6 +3738,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7cc2e994-400d-4f71-aa43-e83e68d54fc6)
   )
+  (label "C4" (at 233.045 55.88 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 7d999d32-2b6c-4265-bbe7-6a8918b4a181)
+  )
   (label "CNTRL" (at 75.565 19.685 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 809b2b9a-248a-4314-866f-ffb8736cb271)
@@ -3711,6 +3749,10 @@
   (label "VIN" (at 115.57 40.005 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 81bff6c2-bd82-469d-996d-1d0150547f2b)
+  )
+  (label "M2" (at 233.045 40.64 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 837e05a9-0e5b-4841-9878-94438c25e436)
   )
   (label "VUSB" (at 46.355 24.765 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3723,6 +3765,10 @@
   (label "SDA" (at 86.995 93.345 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8a493312-f311-4cfd-9f5d-6f4c8de1c6bd)
+  )
+  (label "S4" (at 268.605 35.56 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8ac010cd-d0d8-4ed0-b29a-616ab19a7802)
   )
   (label "BAT_B" (at 165.735 128.905 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3752,27 +3798,23 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a2a8cf47-ec1c-40f7-bdc5-0debd7171e6a)
   )
-  (label "DIR" (at 268.605 40.64 0) (fields_autoplaced)
+  (label "DIR" (at 268.605 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2aee3cb-bef2-4b09-9b8c-af405c72022c)
   )
-  (label "SCL" (at 233.045 58.42 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "SCL" (at 268.605 30.48 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a541aeb2-cfe1-4bc7-b8c1-35af20ee032b)
   )
   (label "ESP_EN" (at 26.67 79.375 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a7a52fbd-1754-4473-9222-2360f2319c5f)
   )
-  (label "MOT_nRST" (at 268.605 33.02 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ad64eeee-b7f5-4cde-841f-0ce00ad05dbe)
-  )
   (label "INT" (at 42.545 175.895 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid adb96e62-a50b-41c9-8c54-ad94079c50f7)
   )
-  (label "MS2" (at 268.605 38.1 0) (fields_autoplaced)
+  (label "MS2" (at 268.605 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b1ee6e0e-89b4-491f-ab77-b6149ba45c98)
   )
@@ -3808,8 +3850,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5c719d6-08ab-4670-940e-e3856c01b6d5)
   )
-  (label "BC_INT" (at 233.045 40.64 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "BC_INT" (at 268.605 25.4 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c6fa4a25-a4a0-43a7-b9e3-4709d092b7d5)
   )
   (label "BAT_A" (at 162.56 107.315 180) (fields_autoplaced)
@@ -3820,6 +3862,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c7623a58-31cf-40db-a288-5b5997b00cb6)
   )
+  (label "MOT_nSLEEP" (at 198.12 131.445 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c7c7876e-986e-40cd-817a-74c98ff8a631)
+  )
   (label "VSYS" (at 81.915 24.13 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cbde015d-585f-40c5-828e-846cb08024d9)
@@ -3828,7 +3874,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ce8eb147-b16e-4cb2-af3f-f62be30eacfb)
   )
-  (label "SDA" (at 233.045 53.34 180) (fields_autoplaced)
+  (label "SDA" (at 233.045 43.18 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cf617786-9b9a-44b5-9ce3-38fd5ecfd823)
   )
@@ -3852,10 +3898,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d6032f65-7a00-4dd0-8f20-d61149589df9)
   )
-  (label "MOT_nRST" (at 199.39 126.365 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d64d8570-e13d-4e35-8e82-8d4dc4a67279)
-  )
   (label "C3" (at 159.385 148.59 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d6e70847-3101-4847-9d35-1fb03e9538d7)
@@ -3872,7 +3914,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ddf8b9c5-f779-4567-bd7e-fa97bc7cb6cd)
   )
-  (label "SHUTDOWN" (at 268.605 45.72 0) (fields_autoplaced)
+  (label "SHUTDOWN" (at 268.605 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e012e416-e799-4999-af23-e8be532a0f96)
   )
@@ -3900,6 +3942,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f1434398-f919-4d27-a5d9-a2dc09207259)
   )
+  (label "M3" (at 233.045 53.34 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid f2148a11-ed53-47fb-9f89-a16d8cf5ff1d)
+  )
   (label "VCP" (at 234.95 140.335 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f461075c-4521-45c8-931f-3101e06cacd2)
@@ -3916,13 +3962,13 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fb43455c-bdd3-471f-adfa-a47dac4bb71e)
   )
+  (label "S2" (at 233.045 38.1 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid fc35d68f-8170-4b37-aeb8-2c81357e43fa)
+  )
   (label "VUSB" (at 115.57 47.625 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid feee53e5-5e2f-4860-bc23-3d0b383faef3)
-  )
-  (label "MOT_nEN" (at 233.045 50.8 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid fef2c655-3cb2-407a-864a-7529360e1d03)
   )
   (label "BAT_B" (at 142.24 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3954,7 +4000,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -3999,7 +4045,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
       (project "BMS"
@@ -4013,7 +4059,7 @@
   (symbol (lib_id "power:GND") (at 265.43 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 098eec0f-4c2f-4c45-96f5-7dd0473902dc)
-    (property "Reference" "#PWR068" (at 265.43 149.86 0)
+    (property "Reference" "#PWR073" (at 265.43 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 265.43 148.59 0)
@@ -4029,7 +4075,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -4062,7 +4108,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4092,7 +4138,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -4111,7 +4157,7 @@
   (symbol (lib_id "power:GND") (at 97.155 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d72cd6b-f727-45e2-86c5-b36f69653b06)
-    (property "Reference" "#PWR038" (at 97.155 109.855 0)
+    (property "Reference" "#PWR028" (at 97.155 109.855 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 101.6 106.045 0)
@@ -4127,7 +4173,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "Axis_Basic"
@@ -4138,10 +4184,36 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Small") (at 192.405 126.365 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0e390e5a-cde0-449c-85ec-fd1bc4ca5840)
+    (property "Reference" "R38" (at 194.31 123.825 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100k" (at 194.31 121.285 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 192.405 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 192.405 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 75788b33-bcb4-4a7e-84b9-678cd4af248f))
+    (pin "2" (uuid b50c7dbe-6584-421d-9737-762cdcf22f9b))
+    (instances
+      (project "Receiver"
+        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
+          (reference "R38") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 209.55 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fb65c9c-c237-4f97-99c7-02b011d9728e)
-    (property "Reference" "C30" (at 209.55 106.68 0)
+    (property "Reference" "C29" (at 209.55 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 209.55 108.585 0)
@@ -4158,7 +4230,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C30") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -4167,7 +4239,7 @@
   (symbol (lib_id "Device:C_Small") (at 250.19 139.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ffdc4b9-42be-4d39-86d0-7a330cd95f71)
-    (property "Reference" "C37" (at 252.73 137.8013 0)
+    (property "Reference" "C36" (at 252.73 137.8013 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 254 140.335 0)
@@ -4184,7 +4256,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C37") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -4238,7 +4310,7 @@
   (symbol (lib_id "power:+3.3V") (at 219.71 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10d54695-217e-428a-85f4-0780913ff734)
-    (property "Reference" "#PWR058" (at 219.71 114.935 0)
+    (property "Reference" "#PWR063" (at 219.71 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 218.44 106.045 0)
@@ -4254,7 +4326,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -4263,7 +4335,7 @@
   (symbol (lib_id "Device:C_Small") (at 222.25 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 118ee2ea-ceee-48ff-934b-bbecea6c05e2)
-    (property "Reference" "C35" (at 224.79 112.4013 0)
+    (property "Reference" "C34" (at 224.79 112.4013 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.22u" (at 224.79 114.9413 0)
@@ -4280,7 +4352,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C35") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -4311,7 +4383,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -4351,7 +4423,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -4391,7 +4463,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
       (project "BMS"
@@ -4405,7 +4477,7 @@
   (symbol (lib_id "power:GND") (at 257.175 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1af37764-85ae-40d9-b3bd-8bc9c3771617)
-    (property "Reference" "#PWR066" (at 257.175 130.175 0)
+    (property "Reference" "#PWR071" (at 257.175 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 257.175 128.905 0)
@@ -4421,7 +4493,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -4492,7 +4564,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "BMS"
@@ -4528,7 +4600,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R19") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -4568,7 +4640,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -4599,7 +4671,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -4610,32 +4682,6 @@
       (project "Welder_Knob"
         (path "/c97a4c34-a1f9-407b-bbd5-25252becc155"
           (reference "C27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 185.42 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 240fc310-2f7b-4bad-93e1-c0fbd0c87b77)
-    (property "Reference" "R23" (at 179.07 127.635 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100k" (at 179.07 130.175 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 185.42 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 185.42 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5c7ec334-3958-463d-9ce1-6a48321f25ae))
-    (pin "2" (uuid e8d66192-dd63-448c-b078-77a2f10b79fb))
-    (instances
-      (project "Receiver"
-        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R23") (unit 1)
         )
       )
     )
@@ -4702,7 +4748,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -4733,7 +4779,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R39") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
       (project "BMS"
@@ -4768,7 +4814,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4777,7 +4823,7 @@
   (symbol (lib_id "power:GND") (at 212.09 150.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2aabad1b-9044-4a09-9ddc-f63f3d86d4d1)
-    (property "Reference" "#PWR055" (at 212.09 156.845 0)
+    (property "Reference" "#PWR060" (at 212.09 156.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 155.575 0)
@@ -4793,7 +4839,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -4865,7 +4911,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R37") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
       (project "BMS"
@@ -4900,7 +4946,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -4941,7 +4987,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -4981,7 +5027,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5021,7 +5067,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5062,7 +5108,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "D5") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -5092,7 +5138,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -5101,7 +5147,7 @@
   (symbol (lib_id "Device:C_Small") (at 205.105 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3566c89f-9dec-4ab6-a333-30c8d1d7bee0)
-    (property "Reference" "C29" (at 203.835 106.68 0)
+    (property "Reference" "C28" (at 203.835 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 203.835 108.585 0)
@@ -5118,7 +5164,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C29") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -5149,7 +5195,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C21") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5227,7 +5273,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5267,7 +5313,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -5297,7 +5343,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
       (project "BMS"
@@ -5311,7 +5357,7 @@
   (symbol (lib_id "power:GND") (at 222.25 111.125 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d45c867-3671-414a-b404-79f8e2e3ebe0)
-    (property "Reference" "#PWR060" (at 222.25 104.775 0)
+    (property "Reference" "#PWR065" (at 222.25 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 106.045 0)
@@ -5327,7 +5373,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -5357,7 +5403,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -5387,7 +5433,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -5396,7 +5442,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.865 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f30c1b7-740a-4942-a344-022324c50af1)
-    (property "Reference" "R7" (at 57.15 47.625 0)
+    (property "Reference" "R8" (at 57.15 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 57.15 50.165 0)
@@ -5413,7 +5459,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5422,7 +5468,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 247.015 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fbd9437-934b-4ca0-9b9b-766ae66f739b)
-    (property "Reference" "J6" (at 245.745 117.475 0)
+    (property "Reference" "J4" (at 245.745 117.475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 249.555 126.365 0)
@@ -5441,41 +5487,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "J6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 208.915 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4187d13a-a236-4494-a5ac-8d81562860e3)
-    (property "Reference" "H2" (at 211.455 177.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 211.455 180.34 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 208.915 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 208.915 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Transmitter"
-        (path "/581107ac-ad12-4180-956d-a71866b354d7"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "Receiver"
-        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H2") (unit 1)
-        )
-      )
-      (project "AutoTiller"
-        (path "/8fe1d5bf-4000-444d-9640-67eaa880ff39"
-          (reference "H1") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -5506,7 +5518,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C20") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5662,32 +5674,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "D6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 185.42 126.365 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 445575a9-871a-4ea5-8ad0-75201a9dda05)
-    (property "Reference" "#PWR048" (at 185.42 130.175 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 185.42 121.285 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 185.42 126.365 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 185.42 126.365 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fd187367-56a7-44e6-98fa-d9187493de58))
-    (instances
-      (project "Receiver"
-        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR048") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -5717,7 +5704,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5757,7 +5744,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5797,7 +5784,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -5827,7 +5814,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5889,7 +5876,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "U5") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5919,7 +5906,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -5964,7 +5951,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -6052,7 +6039,7 @@
   (symbol (lib_id "Mosfet Arrays:DMG6602SV") (at 96.52 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ed22bfe-e279-4dbb-84fe-10c2fc57a593)
-    (property "Reference" "U2" (at 96.52 23.495 0)
+    (property "Reference" "U3" (at 96.52 23.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DMG6602SVTQ" (at 96.52 38.1 0)
@@ -6073,7 +6060,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -6103,7 +6090,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -6221,7 +6208,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R36") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
       (project "BMS"
@@ -6235,7 +6222,7 @@
   (symbol (lib_id "power:+3.3V") (at 62.865 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5223cd12-f3cf-4892-84ac-cee5da115b1e)
-    (property "Reference" "#PWR09" (at 62.865 45.085 0)
+    (property "Reference" "#PWR013" (at 62.865 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 62.865 37.465 0)
@@ -6251,7 +6238,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -6281,7 +6268,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -6312,7 +6299,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R14") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -6390,7 +6377,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R41") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
       (project "BMS"
@@ -6404,7 +6391,7 @@
   (symbol (lib_id "power:GND") (at 62.865 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a7d7af1-0a81-4eb4-87ce-1428e8919506)
-    (property "Reference" "#PWR010" (at 62.865 57.785 0)
+    (property "Reference" "#PWR014" (at 62.865 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.055 52.705 0)
@@ -6420,7 +6407,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -6451,7 +6438,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C34") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -6470,7 +6457,7 @@
   (symbol (lib_id "Device:R_Small") (at 257.175 116.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c01ec19-43aa-482f-88ff-becc8def0131)
-    (property "Reference" "R29" (at 259.715 114.935 0)
+    (property "Reference" "R44" (at 259.715 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20k" (at 259.715 117.475 0)
@@ -6487,7 +6474,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R29") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -6496,7 +6483,7 @@
   (symbol (lib_id "Device:D") (at 75.565 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c284167-c619-4987-a2c7-aa3a5e7fd662)
-    (property "Reference" "D3" (at 67.31 18.415 90)
+    (property "Reference" "D4" (at 67.31 18.415 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148WQ-13-F" (at 67.31 16.51 90)
@@ -6519,7 +6506,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -6549,7 +6536,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "BMS"
@@ -6563,7 +6550,7 @@
   (symbol (lib_id "Device:C_Small") (at 219.71 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d4f65b2-fcd6-4f49-ae0b-a9d87d3dfbc1)
-    (property "Reference" "C33" (at 214.63 112.395 0)
+    (property "Reference" "C32" (at 214.63 112.395 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.22u" (at 213.995 114.935 0)
@@ -6580,7 +6567,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C33") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -6610,7 +6597,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
       (project "BMS"
@@ -6624,7 +6611,7 @@
   (symbol (lib_id "power:GND") (at 64.135 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60226239-f99a-4da5-9fb3-bd5055426114)
-    (property "Reference" "#PWR011" (at 64.135 35.56 0)
+    (property "Reference" "#PWR015" (at 64.135 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.135 33.655 0)
@@ -6640,7 +6627,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -6649,7 +6636,7 @@
   (symbol (lib_id "power:+3.3V") (at 265.43 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62774854-3844-4f8a-8712-b1ca70d1f1db)
-    (property "Reference" "#PWR067" (at 265.43 137.16 0)
+    (property "Reference" "#PWR072" (at 265.43 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 265.43 128.27 0)
@@ -6665,7 +6652,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -6696,7 +6683,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -6736,7 +6723,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -6745,7 +6732,7 @@
   (symbol (lib_id "Device:C_Small") (at 238.76 144.145 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bb063cb-f94b-483b-8d37-681b13920c6b)
-    (property "Reference" "C36" (at 241.3 142.8813 0)
+    (property "Reference" "C35" (at 241.3 142.8813 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 241.3 145.4213 0)
@@ -6762,7 +6749,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C36") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -6853,7 +6840,7 @@
   (symbol (lib_id "power:GND") (at 76.835 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72cb31f0-0af5-469f-acce-5ef6178c4471)
-    (property "Reference" "#PWR016" (at 76.835 38.1 0)
+    (property "Reference" "#PWR019" (at 76.835 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.835 37.465 0)
@@ -6869,7 +6856,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -6898,7 +6885,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H7") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -6934,7 +6921,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -7039,7 +7026,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R40") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
       (project "BMS"
@@ -7074,7 +7061,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -7083,7 +7070,7 @@
   (symbol (lib_id "power:+3.3V") (at 257.175 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 790ba0cb-1da5-4fc1-8105-f4eb592d5287)
-    (property "Reference" "#PWR065" (at 257.175 117.475 0)
+    (property "Reference" "#PWR070" (at 257.175 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 257.175 108.585 0)
@@ -7099,7 +7086,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -7129,7 +7116,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -7160,7 +7147,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R15") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -7191,7 +7178,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R20") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -7231,7 +7218,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "BMS"
@@ -7267,12 +7254,37 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R11") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
       (project "BMS"
         (path "/6dd48ec4-cb18-40ec-9c60-4323a26e3767"
           (reference "R18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 186.69 123.825 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7e7e8992-a977-47e7-8d23-e708d1f447c0)
+    (property "Reference" "#PWR055" (at 186.69 127.635 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 186.69 119.38 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 186.69 123.825 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 186.69 123.825 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 26714884-c3eb-4021-93db-7dc009a0ef8c))
+    (instances
+      (project "Receiver"
+        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -7303,7 +7315,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R9") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
       (project "BMS"
@@ -7379,7 +7391,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -7410,7 +7422,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -7451,7 +7463,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C22") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -7482,7 +7494,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C27") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -7527,7 +7539,7 @@
   (symbol (lib_id "Device:R_Small") (at 265.43 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b2bf8ba-62a2-4225-a162-491d085b2ed2)
-    (property "Reference" "R31" (at 267.97 134.62 0)
+    (property "Reference" "R46" (at 267.97 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NP" (at 267.97 137.16 0)
@@ -7544,7 +7556,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R31") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -7575,7 +7587,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R21") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -7606,7 +7618,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R43") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
       (project "BMS"
@@ -7640,7 +7652,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H8") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -7675,7 +7687,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -7768,7 +7780,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -7808,7 +7820,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -7858,7 +7870,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -7999,7 +8011,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8039,7 +8051,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8050,40 +8062,6 @@
       (project "Welder_Knob"
         (path "/c97a4c34-a1f9-407b-bbd5-25252becc155"
           (reference "#PWR041") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 220.345 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9f9ad570-5fac-47e5-b041-049ac85e64ab)
-    (property "Reference" "H4" (at 222.885 177.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 222.885 180.34 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 220.345 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 220.345 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Transmitter"
-        (path "/581107ac-ad12-4180-956d-a71866b354d7"
-          (reference "H4") (unit 1)
-        )
-      )
-      (project "Receiver"
-        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H4") (unit 1)
-        )
-      )
-      (project "AutoTiller"
-        (path "/8fe1d5bf-4000-444d-9640-67eaa880ff39"
-          (reference "H3") (unit 1)
         )
       )
     )
@@ -8143,7 +8121,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H5") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8179,7 +8157,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R44") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
       (project "BMS"
@@ -8214,7 +8192,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -8244,7 +8222,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -8275,7 +8253,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R26") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8286,40 +8264,6 @@
       (project "Welder_Knob"
         (path "/c97a4c34-a1f9-407b-bbd5-25252becc155"
           (reference "R10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 215.265 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a8306bed-cda2-4483-8bdb-d4327af4969a)
-    (property "Reference" "H3" (at 217.805 177.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 217.805 180.34 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 215.265 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 215.265 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Transmitter"
-        (path "/581107ac-ad12-4180-956d-a71866b354d7"
-          (reference "H3") (unit 1)
-        )
-      )
-      (project "Receiver"
-        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H3") (unit 1)
-        )
-      )
-      (project "AutoTiller"
-        (path "/8fe1d5bf-4000-444d-9640-67eaa880ff39"
-          (reference "H2") (unit 1)
         )
       )
     )
@@ -8390,7 +8334,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8401,40 +8345,6 @@
       (project "Welder_Knob"
         (path "/c97a4c34-a1f9-407b-bbd5-25252becc155"
           (reference "#PWR037") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 202.565 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid adc3846f-f568-4d43-8833-f1370ceef28a)
-    (property "Reference" "H1" (at 205.105 177.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 205.105 180.34 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" (at 202.565 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 202.565 178.435 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "Transmitter"
-        (path "/581107ac-ad12-4180-956d-a71866b354d7"
-          (reference "H1") (unit 1)
-        )
-      )
-      (project "Receiver"
-        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H1") (unit 1)
-        )
-      )
-      (project "AutoTiller"
-        (path "/8fe1d5bf-4000-444d-9640-67eaa880ff39"
-          (reference "H1") (unit 1)
         )
       )
     )
@@ -8464,25 +8374,25 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 99.06 46.355 90) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 98.425 46.355 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae1f1a1d-bf4d-4fc1-80a3-e8481d94a056)
-    (property "Reference" "R13" (at 99.06 40.64 90)
+    (property "Reference" "R17" (at 98.425 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "100k" (at 99.06 43.18 90)
+    (property "Value" "100k" (at 98.425 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 99.06 46.355 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 98.425 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 46.355 0)
+    (property "Datasheet" "~" (at 98.425 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b45cc54e-210f-4ba4-9f0d-8b715e286d2d))
@@ -8490,7 +8400,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R13") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -8521,7 +8431,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C31") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8561,7 +8471,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -8592,7 +8502,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R16") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8674,7 +8584,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8715,7 +8625,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R35") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
       (project "BMS"
@@ -8751,7 +8661,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R22") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8770,7 +8680,7 @@
   (symbol (lib_id "power:GND") (at 205.105 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5297fa5-f01a-4bbf-9ad7-5d8331b75c90)
-    (property "Reference" "#PWR053" (at 205.105 121.92 0)
+    (property "Reference" "#PWR058" (at 205.105 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.105 120.015 0)
@@ -8786,7 +8696,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -8822,7 +8732,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -8886,7 +8796,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R46") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
       (project "BMS"
@@ -8922,7 +8832,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R18") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -8963,7 +8873,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R45") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
       (project "BMS"
@@ -8999,7 +8909,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -9008,7 +8918,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.865 43.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c34cfc5a-1569-4935-a537-74ef3d35303d)
-    (property "Reference" "R6" (at 57.15 42.545 0)
+    (property "Reference" "R7" (at 57.15 42.545 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 57.15 45.085 0)
@@ -9025,7 +8935,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -9096,7 +9006,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9136,7 +9046,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9177,7 +9087,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9249,7 +9159,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9268,7 +9178,7 @@
   (symbol (lib_id "Device:R_Small") (at 81.915 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce7e8b17-d02f-4e84-bbce-8c49797620eb)
-    (property "Reference" "R10" (at 84.455 25.4 0)
+    (property "Reference" "R9" (at 84.455 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 84.455 27.94 0)
@@ -9285,7 +9195,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R10") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -9315,7 +9225,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9351,7 +9261,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R17") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9392,7 +9302,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -9422,7 +9332,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9462,7 +9372,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -9493,7 +9403,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9528,7 +9438,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9547,7 +9457,7 @@
   (symbol (lib_id "Device:R_Small") (at 237.49 132.715 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6b3f344-bd3a-4c5f-83c9-483b9130bbaf)
-    (property "Reference" "R27" (at 237.49 127.635 90)
+    (property "Reference" "R42" (at 237.49 127.635 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68m" (at 237.49 130.175 90)
@@ -9564,7 +9474,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R27") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -9594,7 +9504,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
       (project "BMS"
@@ -9630,7 +9540,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R25") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -9661,7 +9571,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C32") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -9702,7 +9612,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C25") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -9711,7 +9621,7 @@
   (symbol (lib_id "power:+3.3V") (at 97.155 80.645 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da27cda2-865b-4c47-bf7c-a5a688a3cec1)
-    (property "Reference" "#PWR037" (at 97.155 84.455 0)
+    (property "Reference" "#PWR027" (at 97.155 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 100.33 80.01 0)
@@ -9727,7 +9637,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "Axis_Basic"
@@ -9741,7 +9651,7 @@
   (symbol (lib_id "power:+3.3V") (at 81.915 38.735 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddc3af2d-9466-47ef-b01c-1fd5ed69d03d)
-    (property "Reference" "#PWR017" (at 81.915 42.545 0)
+    (property "Reference" "#PWR020" (at 81.915 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 81.915 34.925 0)
@@ -9757,7 +9667,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -9788,7 +9698,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R38") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
       (project "BMS"
@@ -9802,7 +9712,7 @@
   (symbol (lib_id "Mosfet Arrays:DMG6602SV") (at 82.55 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2f7cfbc-a5d0-4eaf-9cbd-17ab8581322e)
-    (property "Reference" "U1" (at 82.55 40.64 0)
+    (property "Reference" "U2" (at 82.55 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DMG6602SVTQ" (at 82.55 55.245 0)
@@ -9823,7 +9733,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -9895,7 +9805,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R24") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -9925,7 +9835,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "BMS"
@@ -9939,7 +9849,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.66 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e600bd7a-ed24-4079-8f69-c2b49b31019a)
-    (property "Reference" "C28" (at 198.755 106.68 0)
+    (property "Reference" "C27" (at 198.755 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 198.755 108.585 0)
@@ -9956,7 +9866,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C28") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -9965,7 +9875,7 @@
   (symbol (lib_id "Device:R_Small") (at 237.49 135.255 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e91e008a-75b9-4fd1-9eb9-9e4f1ffce9c3)
-    (property "Reference" "R28" (at 237.49 130.175 90)
+    (property "Reference" "R43" (at 237.49 130.175 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68m" (at 237.49 132.715 90)
@@ -9982,16 +9892,41 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R28") (unit 1)
+          (reference "R43") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 179.705 128.905 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ea569616-1564-4a76-8c80-76544e03d6c5)
+    (property "Reference" "#PWR053" (at 179.705 135.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 179.705 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 179.705 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 179.705 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c2768bb4-3181-4173-86ff-c166bcd747f9))
+    (instances
+      (project "Receiver"
+        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
+          (reference "#PWR053") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:R_Small") (at 86.36 38.735 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid eb0e7350-5cd6-4696-839e-e43d98ad38ae)
-    (property "Reference" "R12" (at 86.36 34.29 90)
+    (property "Reference" "R11" (at 86.36 34.925 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 86.36 36.83 90)
@@ -10008,7 +9943,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R12") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -10039,7 +9974,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R42") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
       (project "BMS"
@@ -10074,7 +10009,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -10103,7 +10038,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "H6") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -10139,7 +10074,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C23") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -10170,7 +10105,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -10211,7 +10146,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R34") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
       (project "BMS"
@@ -10247,7 +10182,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R33") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
       (project "BMS"
@@ -10282,7 +10217,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -10301,7 +10236,7 @@
   (symbol (lib_id "Device:R_Small") (at 257.175 121.285 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef32bc59-985c-476d-ae05-fa2f1e470e54)
-    (property "Reference" "R30" (at 259.715 120.015 0)
+    (property "Reference" "R45" (at 259.715 120.015 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 259.715 122.555 0)
@@ -10318,7 +10253,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R30") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -10353,7 +10288,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -10367,7 +10302,7 @@
   (symbol (lib_id "Sensor_Magnetic:TLV493D") (at 97.155 93.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4041c83-1eb9-4880-bdf8-05394ac546de)
-    (property "Reference" "U3" (at 83.185 77.47 0)
+    (property "Reference" "U4" (at 83.185 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TLV493DA1B6HTSA2" (at 88.265 77.47 0)
@@ -10388,7 +10323,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
       (project "Axis_Basic"
@@ -10424,7 +10359,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R8") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -10464,7 +10399,33 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR042") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 182.245 128.905 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f77f1089-4631-4f4d-afc5-5d37d022baf6)
+    (property "Reference" "R37" (at 182.245 123.19 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k" (at 182.245 125.73 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 182.245 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 182.245 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e15814dd-a0e6-4ede-abdc-83bd001ac91b))
+    (pin "2" (uuid 444a38a0-12ed-4cff-a292-85769833a6f0))
+    (instances
+      (project "Receiver"
+        (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -10494,7 +10455,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -10513,7 +10474,7 @@
   (symbol (lib_id "power:GND") (at 243.84 135.255 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9234e23-8315-45e0-88d4-5e988f5f629a)
-    (property "Reference" "#PWR063" (at 243.84 141.605 0)
+    (property "Reference" "#PWR068" (at 243.84 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 140.335 0)
@@ -10529,7 +10490,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -10559,7 +10520,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "AutoTiller"
@@ -10578,7 +10539,7 @@
   (symbol (lib_id "Device:R_Small") (at 265.43 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa8c71df-1b2c-4561-9899-82324e1c8371)
-    (property "Reference" "R32" (at 267.97 139.7 0)
+    (property "Reference" "R47" (at 267.97 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 267.97 142.24 0)
@@ -10595,7 +10556,7 @@
     (instances
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "R32") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -10626,7 +10587,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C26") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -10694,7 +10655,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "C24") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -10724,7 +10685,7 @@
       )
       (project "Receiver"
         (path "/65c9fdc5-280c-4d5e-b4cf-324fcb70d6aa"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
       (project "AutoTiller"
