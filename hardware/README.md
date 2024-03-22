@@ -9,7 +9,7 @@ This table is based on building 5 receivers and 5 transmitters
 | [Pelican Case](https://www.pelican.com/us/en/product/cases/protector/1120?sku=1120-000-110)     |               |          |               |            |             |               |
 | [Momentary Switches](https://a.co/d/eoz4Ket) | | | | | | |
 | [Power Switch](https://a.co/d/50zdfZq) | | | | | | |
-| Aluminum Face Plate |  1            |  5       | $7.00         | $40.00     | 5           |$40.00       |
+| Aluminum Face Plate |  1            |  5       | $14.33| $40.00     | 5           |$40.00       |
 | LED Lense           |               |          |               |            |             |               |
 | M3 screws           |               |          |               |            |             |               |
 
@@ -26,8 +26,9 @@ This table is based on building 5 receivers and 5 transmitters
 |---------------------|---------------|----------|---------------|------------|-------------|---------------|
 | [Stepper](https://www.omc-stepperonline.com/e-series-nema-17-bipolar-1-8deg-17ncm-24-07oz-in-1a-42x42x23mm-4-wires-17he08-1004s)  |               |          |               |            |             |               |
 | Body and Lid        |               |          |               |            |             |               |
-| Side Plates         |               |          |               |            |             |               |
-| M3 screws           |               |          |               |            |             |               |
+| Side Plates         |               |          |  4.71             |            |             |               |
+| [Magnet Mounting Screws](https://www.mcmaster.com/catalog/130/3471/91772A107)           |               |          |               |            |             |               |
+| [Side Plate Mounting Screws](https://www.mcmaster.com/catalog/130/3432/91306A311)
 | Magnets             |               |          |               |            |             |               |
 | M2 Screws for feet  |               |          |               |            |             |               |
 | Nuts for feet       |               |          |               |            |             |               |
