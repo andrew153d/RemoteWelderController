@@ -2,16 +2,10 @@
 #include "WiFi.h"
 #include <ArduinoOTA.h>
 #include <WebServer.h>
-
+#include "web_controller.h"
 
 WebServer server(80);
 
-String HTML = "<!DOCTYPE html>\
-<html>\
-<body>\
-<h1>My First Web Server with ESP32 - Station Mode &#128522;</h1>\
-</body>\
-</html>";
 
 void handle_root();
 
@@ -34,10 +28,10 @@ void setup()
 void loop()
 {
   server.handleClient();
+  digitalWrite(13, (int)(millis()/500)%2);
 }
 
 // Handle root url (/)
 void handle_root() {
-  server.send(200, "text/html", HTML);
-  digitalWrite(13, (int)(millis()/1000)%2);
+  server.send(200, "text/html", web_html);
 }
