@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include "WiFi.h"
+#include "ESPmDNS.h"
 #include <ArduinoOTA.h>
 #include <WebServer.h>
 #include "web_controller.h"
@@ -22,7 +23,11 @@ void setup()
   server.begin();
   Serial.print("Got IP: ");
   Serial.println(WiFi.localIP());
-
+  if(!MDNS.begin("weldconnect")){
+    while(1){
+      digitalWrite(13, (int)(millis()/100)%2);
+    }
+  }
 }
 
 void loop()
