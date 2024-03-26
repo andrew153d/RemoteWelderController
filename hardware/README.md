@@ -4,13 +4,13 @@ This table is based on building 5 receivers and 5 transmitters
 
 ### Hardware Components ###
 
-| Item                | QT per device | Total QT | Cost per unit | Total Cost | Purchase QT | Purchase Cost |
+| Item                | QT per device | Total QT | Cost per device | Total Cost | Purchase QT | Purchase Cost |
 |---------------------|---------------|----------|---------------|------------|-------------|---------------|
-| [Pelican Case](https://www.pelican.com/us/en/product/cases/protector/1120?sku=1120-000-110)     |               |          |               |            |             |               |
-| [Momentary Switches](https://a.co/d/eoz4Ket) | | | | | | |
-| [Power Switch](https://a.co/d/50zdfZq) | | | | | | |
+| [Pelican Case](https://www.pelican.com/us/en/product/cases/protector/1120?sku=1120-000-110)     | 1 | 5 | $45.00 | $225 | 5 | $2.25 |
+| [Momentary Switches](https://a.co/d/eoz4Ket) | 2 | 10 | $1.5 | $15.00 | 12 | $18.00 |
+| [Power Switch](https://a.co/d/50zdfZq) | 1 | 5 | $0.89 | $4.5 | 10 | $9.00 |
 | Aluminum Face Plate | 1| 5 | $14.33 | $40.00 | 5 | $40.00 |
-| [Knob](https://www.mcmaster.com/catalog/130/2593/6094K94)|||||||
+| [Knob](https://www.mcmaster.com/6094K42)|||||||
 
 
 ### PCB Components ###
@@ -41,4 +41,4 @@ This table is based on building 5 receivers and 5 transmitters
 | Misc wire           |               |          |               |            |             |               |
 | Conformal Coating   |               |          |               |            |             |               |
 | [Spot Welder](https://a.co/d/fibbjPO) |               |          |               |            |             |               |
-
+| [Heat Shrink](https://a.co/d/8j2zc0W) | 
