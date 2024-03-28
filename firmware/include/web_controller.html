@@ -1,115 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rotating Circle</title>
-<style>
-    body, html {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Circle</title>
+    <style>
+      body,
+      html {
         height: 100%;
         margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    #circle {
+        background-color: #003647;
+      }
+
+      .dominant_color {
+        background-color: #003647;
+      }
+      .secondary_color {
+        background-color: #6aaec3;
+      }
+      .accent_color {
+        background-color: #c5d4d9;
+      }
+      #hash_container {
+        width: 230px;
+        height: 230px;
+        background-color: #101010;
+        border-radius: 50%;
+        padding: 15px;
+      }
+      .hash {
+        width: 10px;
+        background-color: black;
+        position: relative;
+      }
+      #control_knob {
         width: 200px;
         height: 200px;
-        background-color: #575757;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         color: white;
         font-size: 24px;
-        font-family: Arial, sans-serif;
         position: relative;
         cursor: pointer;
-    }
-    #line {
-        width: 2px;
+      }
+      #line {
+        width: 10%;
         height: 30%;
-        background-color: rgb(191, 0, 0);
         position: absolute;
         top: 0;
-        left: 50%;
-    }
-</style>
-</head>
-<body>
+        border-radius: 10px;
+        left: 45%;
+      }
+      #inner_circle {
+        width: 180px;
+        height: 180px;
+        background-color: #565565;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
 
-<div id="circle">
-    <div id="line"></div>
-</div>
+    <div id="control_knob" class="accent_color">
+      <div id="line" class="accent_color"></div>
+      <div id="inner_circle"></div>
+    </div>
 
-<script>
-    const circle = document.getElementById('circle');
-    const line = document.getElementById('line');
-    let isMouseDown = false;
-    let prevAngle = 0;
-    let currentRotation = 0;
+    <script>
+      const circle = document.getElementById("control_knob");
+      const line = document.getElementById("line");
+      let isMouseDown = false;
+      let prevAngle = 0;
+      let currentRotation = 0;
 
-    // Function to calculate angle between two points
-    function getAngle(center, point) {
+      // Function to calculate angle between two points
+      function getAngle(center, point) {
         const deltaY = point.clientY - center.clientY;
         const deltaX = point.clientX - center.clientX;
         const angle = Math.atan2(deltaY, deltaX);
         return angle;
-    }
+      }
 
-    // Function to rotate the circle
-    function rotateCircle(event) {
+      // Function to rotate the circle
+      function rotateCircle(event) {
         event.preventDefault();
         let touch = event;
         if (event.touches) {
-            touch = event.touches[0];
+          touch = event.touches[0];
         }
         if (isMouseDown) {
-            const center = {
-                clientX: circle.offsetLeft + circle.offsetWidth / 2,
-                clientY: circle.offsetTop + circle.offsetHeight / 2
-            };
-            const angle = getAngle(center, touch);
-            const rotation = angle - prevAngle;
-            currentRotation += rotation;
-            circle.style.transform = `rotate(${currentRotation}rad)`;
-            prevAngle = angle;
+          const center = {
+            clientX: circle.offsetLeft + circle.offsetWidth / 2,
+            clientY: circle.offsetTop + circle.offsetHeight / 2,
+          };
+          const angle = getAngle(center, touch);
+          const rotation = angle - prevAngle;
+          currentRotation += rotation;
+          circle.style.transform = `rotate(${currentRotation}rad)`;
+          prevAngle = angle;
         }
-    }
+      }
 
-    // Event listeners for mouse down, move, and up
-    circle.addEventListener('mousedown', (event) => {
+      // Event listeners for mouse down, move, and up
+      circle.addEventListener("mousedown", (event) => {
         isMouseDown = true;
         const center = {
-            clientX: circle.offsetLeft + circle.offsetWidth / 2,
-            clientY: circle.offsetTop + circle.offsetHeight / 2
+          clientX: circle.offsetLeft + circle.offsetWidth / 2,
+          clientY: circle.offsetTop + circle.offsetHeight / 2,
         };
         prevAngle = getAngle(center, event);
-    });
+      });
 
-    document.addEventListener('mousemove', rotateCircle);
+      document.addEventListener("mousemove", rotateCircle);
 
-    document.addEventListener('mouseup', () => {
+      document.addEventListener("mouseup", () => {
         isMouseDown = false;
-    });
+      });
 
-    // Event listeners for touch events
-    circle.addEventListener('touchstart', (event) => {
+      // Event listeners for touch events
+      circle.addEventListener("touchstart", (event) => {
         isMouseDown = true;
         const touch = event.touches[0];
         const center = {
-            clientX: circle.offsetLeft + circle.offsetWidth / 2,
-            clientY: circle.offsetTop + circle.offsetHeight / 2
+          clientX: circle.offsetLeft + circle.offsetWidth / 2,
+          clientY: circle.offsetTop + circle.offsetHeight / 2,
         };
         prevAngle = getAngle(center, touch);
-    });
+      });
 
-    document.addEventListener('touchmove', rotateCircle);
+      document.addEventListener("touchmove", rotateCircle);
 
-    document.addEventListener('touchend', () => {
+      document.addEventListener("touchend", () => {
         isMouseDown = false;
-    });
-</script>
-
-</body>
+      });
+    </script>
+  </body>
 </html>
