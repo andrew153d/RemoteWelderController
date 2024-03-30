@@ -1,22 +1,17 @@
-#define BUTTON 5
-#define STATUS_LED 10
+#ifndef CONFIG_H
+#define CONFIG_H
 
-#define STEP 18
-#define DIR 21
-#define SLEEP 22
-#define ENABLE 23
-#define MS2 25
-#define RST 26
-#define MS1 27
-#define MS3 32
-#define DEVICE_TYPE SLEEP
-#define POT MS3
+#define MAKE_AP false // makes an access point/hotspot to connect to
 
-// SETTINGS
-#define ACCEL 3000
-#define MAX_SPEED 3000
-#define MIN_ERROR_FOR_MOVEMENT 50
-#define RANGE 2300
-#define ALPHA 0.001
+#define DEBUG_PRINTER  WifiDebug
+//#define DEBUG_PRINTER Serial
+
+#define DEBUG_PROGRAM //comment this out to disable printing
+
+
+
+#endif
+
+
 
 
