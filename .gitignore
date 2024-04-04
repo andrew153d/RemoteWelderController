@@ -5,4 +5,5 @@
 .vscode/ipch
 bom
 .vscode
+/Receiver-backups
 firmware/include/wifi_credentials.h
