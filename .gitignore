@@ -6,4 +6,5 @@
 bom
 .vscode
 Receiver-backups
+Transmitter-backups
 firmware/include/wifi_credentials.h
