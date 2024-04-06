@@ -9609,7 +9609,7 @@
     (property "Reference" "U6" (at 166.37 137.795 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 134.62 144.145 0)
+    (property "Value" "BQ76905" (at 134.62 144.145 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DFN_QFN:UQFN-20-1EP_3x3mm_P0.4mm_EP1.85x1.85mm" (at 134.62 144.145 0)
