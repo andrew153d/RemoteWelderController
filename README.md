@@ -1,6 +1,6 @@
 # WeldConnect #
 
-A pair of devices meant to retrofit older welders with wireless connectivity.
+A pair of devices meant to retrofit older welders with wireless connectivity. This document covers the usage and mechanical makeup, the cost overview can be found [here](https://github.com/andrew153d/RemoteWelderController/tree/main/hardware).
 
 --- 
 
