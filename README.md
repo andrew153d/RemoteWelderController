@@ -80,7 +80,7 @@ The circuit board and battery pack get mounted under the faceplate. Not shown is
 </div>
 <div align="center">
     <p>
-    There are several seals on the receiver that maintian water resistance. The upper seal gets compressed between the upper cover and the case. There is also a seal on the access hatch as well as around the motor shaft.
+    There are several seals on the receiver that maintain water resistance. The upper seal gets compressed between the upper cover and the case. There is also a seal on the access hatch as well as around the motor shaft.
     </p>
     <img src="media/Receiver/PortsWide.png" alt="Pelican Render" width="250" style="border-radius: 10px;">
     <img src="media/Receiver/ReceiverSeals.png" alt="Bottom View" width="250" style="border-radius: 10px;">
