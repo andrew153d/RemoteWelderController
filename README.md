@@ -29,7 +29,7 @@ Extended Web Control uses the Transmitter to host the webpage and repeats contro
 ### Web Interface 
 <div align="center">
 <p>
-The webpage for control and configuration. Of course you can stay loyal to your brand while still bringing your welder into the modern world.
+The webpage for control and configuration. Of course you can stay loyal to your brand while still bringing your welder into the modern world. The dial can be dragged to rotate, or the user can swipe the arrows at the bottom to rotate the knob. The lock button will match rotation on the output to the knob on the webpage. The align button will automatically measure the range of the output and scale the input accordingly. Settings and more configuration options can be accessed via the menu on the top left. 
 </p>
 <img src="media/Webpage.png" alt="Pelican Render" width = "200" style="border-radius:10px; margin:10px">
 <img src="media/MakitaTheme.png" alt="Pelican Render" width = "200" style="border-radius:10px; margin:10px">
