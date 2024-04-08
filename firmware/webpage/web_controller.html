@@ -53,6 +53,34 @@
       align-items: center;
     }
 
+    #top-content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    #menu{
+      width: 28px;
+      height: 28px;
+      margin:0px 10px 6px 10px;
+    }
+    
+    #menu div:nth-child(odd){
+      width: 100%;
+      height: 10%;
+      background-color: #da001c;
+      border-radius: 3px;
+    }
+    #menu div:nth-child(even){
+      width: 100%;
+      height: 30%; 
+      background-color: #000000; 
+      border-radius:3px;
+    }
+
     .topbottomborder {
       background-size: cover;
       height: 80px;
@@ -175,8 +203,22 @@
 
 <body>
   <div id="mainframe">
-    <div class="top-border topbottomborder">
+    <div class="top-border topbottomborder stack-container">
       <img src="../../media/Top Border.png" alt="Top" />
+      <div id = "top-content">
+        <div id = "menu">
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+          <div>
+          </div>
+        </div>  
+      </div>
     </div>
     <div id="center_box">
       <div class="knob_container stack-container">
@@ -259,12 +301,14 @@
           left: rect.left + rect.width / 2,
           top: rect.top + rect.height / 2,
         };
+        
         const angle = getAngle(center, touch);
         const rotation = angle - prevAngle;
+        //console.log(rotation);
         currentRotation += rotation;
         circle.style.transform = `rotate(${currentRotation}rad)`;
         prevAngle = angle;
-        console.log(currentRotation);
+        //console.log(currentRotation);
       }
     }
 
@@ -275,7 +319,6 @@
         left: rect.left + rect.width / 2,
         top: rect.top + rect.height / 2,
       };
-      console.log("%d, %d", center.left, center.top);
       prevAngle = getAngle(center, event);
     }
 
