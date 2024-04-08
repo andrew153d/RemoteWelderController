@@ -1,10 +1,5 @@
-print("Assembling Website")
-
 from collections import deque
 import base64
-import os
-
-
 
 def image_to_base64(image_path):
     with open(image_path, "rb") as image_file:
@@ -37,7 +32,7 @@ def replace_img_src(html_string):
         path_to_image = html_string[start_pos:end_pos]
         first_half = html_string[:start_pos]
         second_half = html_string[end_pos:]
-        html_string = first_half + "data:image/png;base64," + image_to_base64(path_to_image) + second_half
+        html_string = first_half + image_to_base64(path_to_image) + second_half
         print(path_to_image)
 
     modified_html = html_string
@@ -45,35 +40,7 @@ def replace_img_src(html_string):
     return modified_html
 
 
-
-def insert_html_into_header(html_file_path, header_file):
-    
-    original_dir = os.getcwd()
-
-    with open(html_file_path, 'r') as html_file:
-        html_content = html_file.read()
-    dird = os.path.split(os.path.abspath(html_file_path))[0]
-    print(dird)
-    os.chdir(dird)
-
-    html_content = replace_img_src(html_content)
-
-    html_content = html_content.replace('"', '\\"')
-    # Replace newlines with escaped newlines and add quotation marks to each line
-    html_content = html_content.replace('\n', '\\n"\n"')
-    # Construct the content to be inserted into the header file
-    header_content = """#ifndef WEBCONTROLLER_H
-#define WEBCONTROLLER_H
-
-const char *web_html = \"{}\"
-                      \"\";
-
-#endif""".format(html_content)
-
-    # Write the combined content into the header file
-    os.chdir(original_dir)
-    with open(header_file, 'w') as header_file:
-        header_file.write(header_content)
-
-
-insert_html_into_header("firmware\webpage\web_controller.html", 'firmware\include\web_controller.h')
+# Example usage:
+html_string = '<div class="bottom-border topbottomborder"><img src="media/Bottom Border.png" alt="Top" /></div>'
+modified_html = replace_img_src(html_string)
+#print(modified_html)

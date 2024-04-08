@@ -57,5 +57,5 @@ void loop()
 // Handle root url (/)
 void handle_root() {
   DEBUG_PRINT("Sending HTML page");
-  server.send(200, "text/html", web_html);
+  server.send_P(200, "text/html", web_html);
 }
