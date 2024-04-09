@@ -1,6 +1,6 @@
 # RemoteWelderController #
 
-A pair of devices meant to retrofit older welders with wireless connectivity. This document covers the usage and mechanical makeup, the cost overview can be found [here](https://github.com/andrew153d/RemoteWelderController/tree/main/hardware).
+A pair of devices meant to retrofit older welders with wireless connectivity. This document covers the usage and mechanical makeup, the cost overview can be found [here](https://github.com/andrew153d/RemoteWelderController/tree/main/hardware). There is also a preview of the site at this [link](https://andrew153d.github.io/RemoteWelderController/firmware/webpage/web_controller.html), note functionality is limited.
 
 --- 
 
