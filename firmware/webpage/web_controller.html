@@ -212,7 +212,7 @@
 </head>
 
 <body>
-  <div id="mainframe">
+  <div id="mainframe" class = "makita">
     <div class="top-border topbottomborder stack-container">
       <img src="../../media/Top Border.png" alt="Top" />
       <div id = "top-content">
@@ -325,6 +325,7 @@
     function startClick(event) {
       isMouseDown = true;
       const rect = circle.getBoundingClientRect();
+      console.log("Start Click %d, %d", center.left, center.right);
       const center = {
         left: rect.left + rect.width / 2,
         top: rect.top + rect.height / 2,
