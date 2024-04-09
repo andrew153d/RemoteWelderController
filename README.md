@@ -18,11 +18,11 @@ To enter standard control mode, toggle the Transmitter power switch to the 'ON' 
 
 ### Web Control
 
-Web Control Mode will allow the user to make use of the web interface to control the output of the receiver. Press the power button on the receiver to turn the device on. After the status LED flashes blue, hold the power button for 3 seconds or until the LED turns to solid green. Connect your phone to the wifi network named Weld_xxx, open a browser and go to 'Weld.local'.
+Web Control Mode will allow the user to make use of the web interface to control the output of the receiver. Press the power button on the receiver to turn the device on. After the status LED flashes blue, hold the power button for 3 seconds or until the LED turns to solid green. Connect your phone to the wifi network named Weld_---, open a browser and go to 'Weld.local'.
 
 ### Extended Web Control
 
-Extended Web Control uses the Transmitter to host the webpage and repeats control to the receiver. After turning on both devices, hold both the up and down buttons for 3 seconds until the status LED turns green. Connect your phone to the Wifi network named Weld_xxx and open the site 'Weld.Local'. In order to increase the distance, place the transmitter between the user and the receiver.
+Extended Web Control uses the Transmitter to host the webpage and repeats control to the receiver. After turning on both devices, hold both the up and down buttons for 3 seconds until the status LED turns green. Connect your phone to the Wifi network named Weld_--- and open the site 'Weld.Local'. In order to increase the distance, place the transmitter between the user and the receiver.
 
 ## Mechanical Details
 
