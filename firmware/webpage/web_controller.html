@@ -114,7 +114,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 100%;
+      width: 80%;
     }
 
     #control_knob {
@@ -292,9 +292,11 @@
 
     // Function to calculate angle between two points
     function getAngle(center, point) {
+      console.log("%d, %d, %d, %d", point.clientY, center.top, point.clientX, center.left);
       const deltaY = point.clientY - center.top;
       const deltaX = point.clientX - center.left;
       const angle = Math.atan2(deltaY, deltaX);
+      console.log("%f, %f, %f", deltaY, deltaX, angle);
       return angle;
     }
 
@@ -322,32 +324,56 @@
       }
     }
 
-    function startClick(event) {
-      isMouseDown = true;
-      const rect = circle.getBoundingClientRect();
-      console.log("Start Click %d, %d", center.left, center.right);
-      const center = {
-        left: rect.left + rect.width / 2,
-        top: rect.top + rect.height / 2,
-      };
-      prevAngle = getAngle(center, event);
-    }
-
-    function endClick(){
-      isMouseDown=false;
-    }
-
     // Event listeners for mouse down, move, and up
-    circle.addEventListener("mousedown",startClick,{ passive: false });
-    circle.addEventListener("touchstart",startClick,{ passive: false });
-    slider.addEventListener("mousedown",startClick,{ passive: false });
-    slider.addEventListener("touchstart",startClick,{ passive: false });
+    circle.addEventListener(
+        "mousedown",
+        (event) => {
+          isMouseDown = true;
+          const rect = circle.getBoundingClientRect();
+          const center = {
+            left: rect.left + rect.width / 2,
+            top: rect.top + rect.height / 2,
+          };
+          prevAngle = getAngle(center, event);
+        },
+        { passive: false }
+      );
 
-    document.addEventListener("mousemove", rotateCircle, { passive: false });
-    document.addEventListener("touchmove", rotateCircle, { passive: false });
+      document.addEventListener("mousemove", rotateCircle, { passive: false });
 
-    document.addEventListener("mouseup",endClick,{ passive: false });
-    document.addEventListener("touchend",endClick,{ passive: false });
+      document.addEventListener(
+        "mouseup",
+        () => {
+          isMouseDown = false;
+        },
+        { passive: false }
+      );
+
+      // Event listeners for touch events
+      circle.addEventListener(
+        "touchstart",
+        (event) => {
+          isMouseDown = true;
+          const touch = event.touches[0];
+          const rect = circle.getBoundingClientRect();
+          const center = {
+            left: rect.left + rect.width / 2,
+            top: rect.top + rect.height / 2,
+          };
+          prevAngle = getAngle(center, touch);
+        },
+        { passive: false }
+      );
+
+      document.addEventListener("touchmove", rotateCircle, { passive: false });
+
+      document.addEventListener(
+        "touchend",
+        () => {
+          isMouseDown = false;
+        },
+        { passive: false }
+      );
   </script>
 </body>
 
