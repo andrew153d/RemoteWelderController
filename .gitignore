@@ -8,3 +8,5 @@ bom
 Receiver-backups
 Transmitter-backups
 firmware/include/wifi_credentials.h
+firmware/webpage/generated.html
+firmware/include/web_controller.h

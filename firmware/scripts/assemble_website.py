@@ -54,6 +54,13 @@ def replace_img_src(html_string):
 
     return modified_html
 
+def remove_html_comments(html_string):
+    # Regular expression to match HTML comments
+    comment_pattern = r'<!--(.*?)-->'
+    
+    # Remove HTML comments using re.sub
+    return re.sub(comment_pattern, '', html_string)
+
 def insert_javascript_into_html(key, html_content ,js_path):
     with open(js_path, 'r') as file:
         js_content = file.read()
