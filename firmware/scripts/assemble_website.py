@@ -92,7 +92,7 @@ def write_html_formatted_string_to_header(html_content, file_path):
     with open(file_path, 'w') as file:
         file.write(html_content)
 
-html_file_path = "firmware\webpage\web_controller.html"
+html_file_path = "firmware/webpage/web_controller.html"
 
 html_page = get_html_from_file(html_file_path)
 html_page = insert_css_into_html("this_gets_replaced{width: 80px;}",html_page,"firmware\webpage\styles.css")

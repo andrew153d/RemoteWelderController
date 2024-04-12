@@ -1,30 +1,35 @@
 :root {
-    --knob-outer: hsl(0, 2%, 19%);
-    --knob-inner: hsl(0, 0%, 46%);
-    --makita: hsl(185, 99%, 28%);
-    --dewalt: hsl(43, 99%, 54%);
-    --milwaukee: hsl(352, 100%, 43%);
-  }
+  --knob-outer: hsl(0, 1%, 13%);
+  --knob-inner: hsl(0, 0%, 46%);
+  --makita: hsl(185, 99%, 28%);
+  --dewalt: hsl(43, 99%, 54%);
+  --milwaukee: hsl(352, 100%, 43%);
+}
 
-  .color_theme{
-    background-color: var(--makita);
-  }
-  .color_theme_light{
-    background-color: var(--makita);
-  }
+/*
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+
+
+.color_theme {
+  background-color: var(--makita);
+}
+.color_theme_light {
+  background-color: var(--makita);
+}
 
 .stack-container {
   position: relative;
-  /* Container needs to be positioned */
 }
 
 .stack-container > div {
   position: absolute;
-  /* All child elements positioned absolutely */
   top: 0;
-  /* Stack elements at the top */
   left: 0;
-  /* Align elements to the left */
 }
 
 body,
@@ -36,7 +41,6 @@ html {
   display: flex;
   justify-content: center;
 }
-
 
 #mainframe {
   width: 100%;
@@ -59,58 +63,62 @@ html {
 }
 
 .menu_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 0px;
-  height: 28px;
-  border-radius:5%;
-  margin:0px;
-  transition: width 0.5s ease; /* Smooth transition effect */
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  height: 45px;
+  margin: 0px;
+  border-radius: 5%;
+  transition: width 0.5s ease;
 }
 
 .menu_item.open {
-    margin:0px 2px;
-  width: 28px;
+  margin: 0px 2px;
+  width: 45px;
   transition: all 0.5s ease;
 }
 
 .menu_item img {
-    max-width: 90%;
-    max-height: 90%;
-    height: auto;
-    width: auto;
-  }
+  max-width: 90%;
+  max-height: 90%;
+  height: auto;
+  width: auto;
+}
 /* menu stuff */
 
 .menu-toggle {
-  height: 28px;
-  width: 28px;
+  height: 45px;
+  width: 45px;
+  margin: 0px 2px;
+  padding: 2px;
 }
 
 .menu-toggle-bar {
-  width: 29px;
+  width: 43px;
   height: 4px;
   border-radius: 4px;
   background-color: rgb(229, 229, 229);
   transition: all 0.5s ease;
 
   &.menu-toggle-bar--top {
-    margin-bottom: 6px;
+    margin-bottom: 10px;
   }
   &.menu-toggle-bar--bottom {
-    margin-top: 6px;
+    margin-top: 10px;
   }
 
   .nav-open & {
     &.menu-toggle-bar--top {
-      transform: translate(0, 10px) rotate(45deg);
+      transform: translate(0, 18px) rotate(45deg);
+      margin-bottom: 8px;
     }
     &.menu-toggle-bar--middle {
       opacity: 0;
     }
     &.menu-toggle-bar--bottom {
-      transform: translate(0, -10px) rotate(-45deg);
+      transform: translate(0, -4px) rotate(-45deg);
+      margin-top: 8px;
     }
   }
 }
@@ -119,10 +127,9 @@ html {
 
 .topbottomborder {
   background-size: cover;
-  height: 80px;
+  height: 100px;
   overflow: hidden;
   width: 100%;
-  margin: -10px;
 }
 
 .topbottomborder img {
@@ -140,12 +147,14 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
 }
 
 #control_knob {
-  width: 200px;
-  height: 200px;
+  width: 205px;
+  height: 205px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -167,8 +176,8 @@ html {
 }
 
 #inner_circle {
-  width: 180px;
-  height: 180px;
+  width: 181px;
+  height: 181px;
   background-color: var(--knob-inner);
   border-radius: 50%;
 }
@@ -181,7 +190,7 @@ html {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #slide-container img {
@@ -235,3 +244,65 @@ html {
   width: 40px;
   height: 40px;
 }
+
+.batt_row_container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.battery {
+  margin: 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.battery_top {
+  width: 40%;
+  height: 5%;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px 3px 0px 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.battery_bottom {
+  width: 100%;
+  height: 95%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.battery_title {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 12pt;
+  width: 130px;
+  padding: 10px;
+  color: aliceblue;
+  background: #000000;
+  text-align: center;
+}
+
+:root {
+  --chamfer-width: 12px;
+}
+
+.chamfer {
+  position: relative;
+  clip-path: polygon(
+    var(--chamfer-width) 0,
+    calc(100% - var(--chamfer-width)) 0,
+    100% var(--chamfer-width),
+    100% calc(100% - var(--chamfer-width)),
+    calc(100% - var(--chamfer-width)) 100%,
+    var(--chamfer-width) 100%,
+    0 calc(100% - var(--chamfer-width)),
+    0 var(--chamfer-width)
+  );
+}
+
