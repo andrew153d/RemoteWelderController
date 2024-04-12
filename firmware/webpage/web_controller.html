@@ -1,84 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WeldConnect</title>
-    <style>
-      this_gets_replaced{width: 80px;}
-    </style>
-  </head>
-  <body>
-    <div id="mainframe" class="color_theme">
-      <div class="top-border topbottomborder stack-container">
-        <img src="../../media/Top Border.png" alt="Top" />
-        <div id="top-content">
-          <a class="menu_item color_theme_light" href="battery.html" target="_self"><img src="../../media/battery.png"></a>
-          <a class="menu_item color_theme_light"><img src="../../media/merge.png"/> </a>
-          <a class="menu_item color_theme_light"><img src="../../media/wi-fi.png"/> </a>
-          <a class="menu_item color_theme_light"><img src="../../media/settings.png"/> </a>
-          <!-- menu button -->
-          <div id="menu-toggle" class="menu-toggle menu_items" onclick = menuPressed()>
-            <div class="menu-toggle-bar menu-toggle-bar--top"></div>
-            <div class="menu-toggle-bar menu-toggle-bar--middle"></div>
-            <div class="menu-toggle-bar menu-toggle-bar--bottom"></div>
-          </div>
-          <!--end menu button -->
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeldConnect</title>
+  <style>
+    this_gets_replaced {
+      width: 80px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="mainframe" class="color_theme">
+    <div class="top-border topbottomborder stack-container">
+      <img src="../../media/Top Border.png" alt="Top" />
+      <div id="top-content">
+        <a class="menu_item color_theme_light" href="battery.html" target="_self"><img
+            src="../../media/battery.png"></a>
+        <a class="menu_item color_theme_light"><img src="../../media/merge.png" /> </a>
+        <a class="menu_item color_theme_light"><img src="../../media/wi-fi.png" /> </a>
+        <a class="menu_item color_theme_light"><img src="../../media/settings.png" /> </a>
+        <!-- menu button -->
+        <div id="menu-toggle" class="menu-toggle menu_items" onclick=menuPressed()>
+          <div class="menu-toggle-bar menu-toggle-bar--top"></div>
+          <div class="menu-toggle-bar menu-toggle-bar--middle"></div>
+          <div class="menu-toggle-bar menu-toggle-bar--bottom"></div>
         </div>
-      </div>
-      <div id="center_box">
-        <div class="knob_container stack-container">
-          <div class="tick_box" style="rotate: 125deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: 100deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: 75deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: 50deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: 25deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: 0deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: -25deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: -50deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: -75deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: -100deg">
-            <div class="tick_line"></div>
-          </div>
-          <div class="tick_box" style="rotate: -125deg">
-            <div class="tick_line"></div>
-          </div>
-          <div id="icon_container">
-            <img src="../../media/merge.png" alt="Top" />
-            <img src="../../media/lock.png" alt="Top" />
-          </div>
-          <div id="control_knob">
-            <div id="line"></div>
-            <div id="inner_circle"></div>
-          </div>
-        </div>
-        <div id="slide-container">
-          <img src="../../media/slider.png" alt="Top" />
-        </div>
-      </div>
-      <div class="bottom-border topbottomborder">
-        <img src="../../media/Bottom Border.png" alt="Top" />
+        <!--end menu button -->
       </div>
     </div>
-    <script src="scripts.js"></script>
-  </body>
+    <div id="center_box">
+      <div class="knob_container stack-container">
+        <div class="tick_box" style="rotate: 125deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: 100deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: 75deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: 50deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: 25deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: 0deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: -25deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: -50deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: -75deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: -100deg">
+          <div class="tick_line"></div>
+        </div>
+        <div class="tick_box" style="rotate: -125deg">
+          <div class="tick_line"></div>
+        </div>
+        <div id="icon_container">
+          <img src="../../media/merge.png" alt="Top" />
+          <img src="../../media/lock.png" alt="Top" />
+        </div>
+        <div id="control_knob">
+          <div id="line"></div>
+          <div id="inner_circle"></div>
+        </div>
+      </div>
+      <div id="slide-container">
+        <img src="../../media/slider.png" alt="Top" />
+      </div>
+    </div>
+    <div class="bottom-border topbottomborder">
+      <img src="../../media/Bottom Border.png" alt="Top" />
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
 </html>
