@@ -32,16 +32,6 @@ def read_file(file_path):
         content = file.read()
         return content
 
-def get_html_from_file(html_file_path):
-    with open(html_file_path, 'r') as html_file:
-        html_content = html_file.read()
-    return html_content
-
-def insert_css_into_html(key, html_string ,file_path):
-    with open(file_path, 'r') as file:
-        css_content = file.read()
-        return html_string.replace(key, css_content)
-
 def replace_img_in_html(html_string):
     
     positions = get_img_positions(html_string)
@@ -55,36 +45,8 @@ def replace_img_in_html(html_string):
         html_string = first_half + "data:image/png;base64," + image_to_base64(path_to_image) + second_half
         print(path_to_image)
 
-    modified_html = html_string
-
-    return modified_html
-
-def remove_html_comments(html_string):
-    # Regular expression to match HTML comments
-    comment_pattern = r'<!--(.*?)-->'
+    return html_string
     
-    # Remove HTML comments using re.sub
-    return re.sub(comment_pattern, '', html_string)
-
-def insert_javascript_into_html(key, html_content ,js_path):
-    with open(js_path, 'r') as file:
-        js_content = file.read()
-        html_content = html_content.replace(key, '<script>'+js_content+'</script>')
-        return html_content
-    
-def convert_html_string_to_header(html_content, title):
-
-    html_content = html_content.replace('"', '\\"')
-    # Replace newlines with escaped newlines and add quotation marks to each line
-    html_content = html_content.replace('\n', '\\n"\n"')
-    # Construct the content to be inserted into the header file
-    header_content = """#pragma once
-
-const char *"""+title+""" = \"{}\"
-                      \"\";
-""".format(html_content)
-    return header_content
-
 def write_to_file(contents, path):
     with open(path, 'w') as file:
         file.write(contents)
@@ -94,18 +56,6 @@ def write_html_formatted_string_to_header(html_content, file_path):
     os.chdir(original_dir)
     with open(file_path, 'w') as file:
         file.write(html_content)
-
-def convert_html_file(html_file_path, output_file_path):
-    html_page = get_html_from_file(html_file_path)
-    html_page = insert_css_into_html("this_gets_replaced{width: 80px;}",html_page,"firmware\webpage\styles.css")
-    original_dir = os.getcwd()
-    dird = os.path.split(os.path.abspath(html_file_path))[0]
-    print(dird)
-    os.chdir(dird)
-    html_page  = replace_img_in_html(html_page)
-    os.chdir(original_dir)
-    html_page = convert_html_string_to_header(html_page, "web_html")
-    write_html_formatted_string_to_header(html_page, output_file_path)
 
 def write_js_to_header(input_file_path, output_file_path):
     with open(input_file_path, 'r') as file:
@@ -141,7 +91,7 @@ def extract_filename(file_path):
     
     return filename
 
-def convert_js(js_file_path):
+def convert_js_css(js_file_path):
     js_contents = read_file(js_file_path)
     var_name = extract_filename(js_file_path)
     js_contents = format_c_header(js_contents, var_name)
@@ -163,10 +113,10 @@ def convert_html(html_file_path):
 def convert_css(css_file_path):
     pass
 
-convert_js("firmware/webpage/scripts.js")
+convert_js_css("firmware/webpage/styles.css")
+convert_js_css("firmware/webpage/scripts.js")
 convert_html("firmware/webpage/web_controller.html")
 convert_html('firmware/webpage/battery.html')
-convert_js("firmware/webpage/styles.css")
 
 
 
