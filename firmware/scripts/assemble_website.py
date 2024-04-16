@@ -27,6 +27,11 @@ def get_img_positions(html_string):
         index_queue.append(quot_index)
     return index_queue
 
+def read_file(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+        return content
+
 def get_html_from_file(html_file_path):
     with open(html_file_path, 'r') as html_file:
         html_content = html_file.read()
@@ -37,7 +42,7 @@ def insert_css_into_html(key, html_string ,file_path):
         css_content = file.read()
         return html_string.replace(key, css_content)
 
-def replace_img_src(html_string):
+def replace_img_in_html(html_string):
     
     positions = get_img_positions(html_string)
 
@@ -67,24 +72,22 @@ def insert_javascript_into_html(key, html_content ,js_path):
         html_content = html_content.replace(key, '<script>'+js_content+'</script>')
         return html_content
     
-def convert_html_string_to_header(html_content):
+def convert_html_string_to_header(html_content, title):
 
     html_content = html_content.replace('"', '\\"')
     # Replace newlines with escaped newlines and add quotation marks to each line
     html_content = html_content.replace('\n', '\\n"\n"')
     # Construct the content to be inserted into the header file
-    header_content = """#ifndef WEBCONTROLLER_H
-#define WEBCONTROLLER_H
+    header_content = """#pragma once
 
-const char *web_html = \"{}\"
+const char *"""+title+""" = \"{}\"
                       \"\";
-
-#endif""".format(html_content)
+""".format(html_content)
     return header_content
 
-def write_html_to_html_file(html_string, html_path):
-    with open(html_path, 'w') as file:
-        file.write(html_string)
+def write_to_file(contents, path):
+    with open(path, 'w') as file:
+        file.write(contents)
 
 def write_html_formatted_string_to_header(html_content, file_path):
     global original_dir
@@ -92,17 +95,78 @@ def write_html_formatted_string_to_header(html_content, file_path):
     with open(file_path, 'w') as file:
         file.write(html_content)
 
-html_file_path = "firmware/webpage/web_controller.html"
+def convert_html_file(html_file_path, output_file_path):
+    html_page = get_html_from_file(html_file_path)
+    html_page = insert_css_into_html("this_gets_replaced{width: 80px;}",html_page,"firmware\webpage\styles.css")
+    original_dir = os.getcwd()
+    dird = os.path.split(os.path.abspath(html_file_path))[0]
+    print(dird)
+    os.chdir(dird)
+    html_page  = replace_img_in_html(html_page)
+    os.chdir(original_dir)
+    html_page = convert_html_string_to_header(html_page, "web_html")
+    write_html_formatted_string_to_header(html_page, output_file_path)
 
-html_page = get_html_from_file(html_file_path)
-html_page = insert_css_into_html("this_gets_replaced{width: 80px;}",html_page,"firmware\webpage\styles.css")
-original_dir = os.getcwd()
-dird = os.path.split(os.path.abspath(html_file_path))[0]
-print(dird)
-os.chdir(dird)
-html_page  = replace_img_src(html_page)
-os.chdir(original_dir)
-html_page=insert_javascript_into_html('<script src="scripts.js"></script>', html_page, "firmware/webpage/scripts.js")
-write_html_to_html_file(html_page, "firmware\webpage\generated.html")
-html_page = convert_html_string_to_header(html_page)
-write_html_formatted_string_to_header(html_page, 'firmware\include\web_controller.h')
+def write_js_to_header(input_file_path, output_file_path):
+    with open(input_file_path, 'r') as file:
+        js_content = file.read()
+        js_content = js_content.replace('"', '\\"')
+        js_content = js_content.replace('\n', '\\n"\n"')
+        header_content = """#pragma once
+
+const char *scripts = \"{}\"
+                      \"\";
+
+""".format(js_content)
+        with open(output_file_path, 'w') as file:
+            file.write(header_content)
+
+def format_c_header(content, name):
+    content = content.replace('"', '\\"')
+    content = content.replace('\n', '\\n"\n"')
+    header_content = """#pragma once
+
+const char *"""+name+""" = \"{}\"
+                      \"\";
+
+""".format(content)
+    return header_content
+    
+def extract_filename(file_path):
+    # Split the file path into directory and filename
+    directory, filename_with_extension = os.path.split(file_path)
+    
+    # Split the filename to remove the extension
+    filename, extension = os.path.splitext(filename_with_extension)
+    
+    return filename
+
+def convert_js(js_file_path):
+    js_contents = read_file(js_file_path)
+    var_name = extract_filename(js_file_path)
+    js_contents = format_c_header(js_contents, var_name)
+    write_to_file(js_contents, "firmware/include/"+var_name+".h")
+
+def convert_html(html_file_path):
+    html_contents = read_file(html_file_path)
+    
+    original_dir = os.getcwd()
+    image_dir = os.path.split(os.path.abspath(html_file_path))[0]
+    os.chdir(image_dir)
+    html_contents  = replace_img_in_html(html_contents)
+    os.chdir(original_dir)
+
+    var_name = extract_filename(html_file_path)
+    html_contents = format_c_header(html_contents, var_name)
+    write_to_file(html_contents, "firmware/include/"+var_name+".h")
+    
+def convert_css(css_file_path):
+    pass
+
+convert_js("firmware/webpage/scripts.js")
+convert_html("firmware/webpage/web_controller.html")
+convert_html('firmware/webpage/battery.html')
+convert_js("firmware/webpage/styles.css")
+
+
+
