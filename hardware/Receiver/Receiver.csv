@@ -1,57 +1,58 @@
-"Source:","C:\Users\Andre\Documents\Wireless Knob Controller\hardware\Receiver\Receiver.kicad_sch"
-"Date:","3/25/2024 9:47:54 PM"
-"Tool:","Eeschema 7.0.6"
-"Generator:","C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","120"
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor","DNP"
-"A1","1","~","A4988","Package_DFN_QFN:QFN-28_4x4mm_P0.5mm","","",""
-"BQ25792RQMR1","1","~","BQ25792RQMR","Lipo_Charger:BQ25792","","",""
-"C1, C11, C23, C27, C28, C31, C35, C36","8","0.1u","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol","",""
-"C2, C3, C6, C8, C10, C12, C13, C15, C16, C17, C18, C19, C20, C21, C24, C25","16","10u","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol","",""
-"C4, C5","2","47n","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol","",""
-"C7","1",".1u","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol","",""
-"C9","1","4.7u","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol","",""
-"C14","1","NP","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol","",""
-"C22, C33","2","1u","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol","",""
-"C26, C30","2","22u","C_Small","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor, small symbol","",""
-"C29","1","47u","C_Small","Capacitor_SMD:CP_Elec_6.3x5.4","Unpolarized capacitor, small symbol","",""
-"C32, C34","2","0.22u","C_Small","Capacitor_SMD:C_0402_1005Metric","Unpolarized capacitor, small symbol","",""
-"D1","1","LED","LED","LED_SMD:LED_0603_1608Metric","Light emitting diode","",""
-"D2","1","LED","LED","Capacitor_SMD:C_0805_2012Metric","Light emitting diode","",""
-"D3","1","WS2812B","WS2812B","LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm","RGB LED with integrated controller","",""
-"D4","1","1N4148WQ-13-F","D","Diode_SMD:D_SOD-123","Diode","",""
-"D5","1","D_Zener","D_Zener","Diode_SMD:D_SOD-323F","Zener diode","",""
-"D6","1","EVVO SS16","D_Schottky","Diode_SMD:D_SMA","Schottky diode","",""
-"H1, H2, H3, H4","4","MountingHole","MountingHole","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom","Mounting Hole without connection","",""
-"IC1","1","ESP32-C3-MINI-1-N4","ESP32-C3-MINI-1-N4","ESP32MINI1N4:ESP32MINI1N4","SMD MODULE, ESP32-C3FN4, PCB ANT","",""
-"J1","1","USB_C_Receptacle_USB2.0","USB_C_Receptacle_USB2.0","Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500","USB 2.0-only Type-C Receptacle connector","",""
-"J2","1","20021511-00006T4LF","Conn_02x03_Odd_Even","Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical","Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)","",""
-"J3","1","JST_PH","Conn_01x06","Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical","Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)","",""
-"J4","1","Conn_01x04","Conn_01x04","Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)","",""
-"L1","1","1u","L_Small","Inductor_SMD:L_Sunlord_MWSA0402S","Inductor, small symbol","",""
-"Q1","1","2N7002","2N7002","Package_TO_SOT_SMD:SOT-23","0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23","",""
-"Q2, Q3, Q4, Q8, Q9, Q10, Q11","7","NChan","DMG3418L","Package_TO_SOT_SMD:SOT-23","4A Id, 30V Vds, N-Channel MOSFET, SOT-23","",""
-"Q5, Q6, Q7","3","PChan","BSS83P","Package_TO_SOT_SMD:SOT-23","-0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23","",""
-"R1, R2, R16, R39, R40, R41, R45, R47","8","10k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R3, R4, R5","3","5.1k","R_Small","Capacitor_SMD:C_0402_1005Metric","Resistor, small symbol","",""
-"R6","1","5.1k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R7, R9, R11, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R28, R30, R32, R37, R38","18","100k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R8","1","1M","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R10","1","100","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R12","1","127k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R13","1","5.24k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R14","1","30.31k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R15","1","6.04k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R27","1","282k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R29","1","155k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R31","1","28k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R33, R34, R35, R36","4","400","R_Small","Resistor_SMD:R_2010_5025Metric","Resistor, small symbol","",""
-"R42, R43","2","68m","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R44","1","20k","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"R46","1","NP","R_Small","Resistor_SMD:R_0402_1005Metric","Resistor, small symbol","",""
-"SW1","1","Reset","SW_Push","Switch:Tactile_5.5mmx2.85mm","Push button switch, generic, two pins","",""
-"SW2","1","1825027-8","SW_Push","Button_THT:SW2_1825027-C_TEC","Push button switch, generic, two pins","",""
-"U1, U5","2","TPS22810DRV","TPS22810DRV","Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm","2.7-18V, 79mohms On-Resistance Load Switch With Thermal Protection, WSON-6","",""
-"U2, U3","2","DMG6602SVTQ","DMG6602SV","Package_TO_SOT_SMD:TSOT-23-6","","",""
-"U4","1","TLV493DA1B6HTSA2","TLV493D","Package_TO_SOT_SMD:SOT-23-6","Low power 3D magnetic sensor, I2C interface, SOT-23-6","",""
-"U6","1","AZ1117-3.3","AZ1117-3.3","Package_TO_SOT_SMD:SOT-223","1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263","",""
+Order Status,"Reference","Qty","Value","Footprint","DNP"
+,"A1","1","~","Package_DFN_QFN:QFN-28_4x4mm_P0.5mm",
+,"BQ25792RQMR1","1","~","Lipo_Charger:BQ25792",
+,"BT1, BT2, BT3, BT4","4","Battery_Cell",,
+,"C1, C11, C29, C31, C35, C36, C39, C40, C44, C45, C47","11","0.1u","Capacitor_SMD:C_0402_1005Metric",
+,"C2, C3, C6, C8, C10, C12, C13, C15, C16, C17, C18, C19, C20, C26, C33, C34","16","10u","Capacitor_SMD:C_0603_1608Metric",
+,"C4, C5","2","47n","Capacitor_SMD:C_0402_1005Metric",
+,"C7","1",".1u","Capacitor_SMD:C_0402_1005Metric",
+,"C9","1","4.7u","Capacitor_SMD:C_0402_1005Metric",
+,"C14","1","NP","Capacitor_SMD:C_0402_1005Metric",
+,"C21, C22, C23, C24, C25","5","220nf","Capacitor_SMD:C_0402_1005Metric",
+,"C27, C30, C32, C38","4","1u","Capacitor_SMD:C_0402_1005Metric",
+,"C28","1","100p","Capacitor_SMD:C_0402_1005Metric",
+,"C37, C46","2","22u","Capacitor_SMD:C_0805_2012Metric",
+,"C41","1","47u","Capacitor_SMD:CP_Elec_6.3x5.4",
+,"C42, C43","2","0.22u","Capacitor_SMD:C_0402_1005Metric",
+,"D1","1","LED","LED_SMD:LED_0603_1608Metric",
+,"D2","1","LED","Capacitor_SMD:C_0805_2012Metric",
+,"D3","1","WS2812B","LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",
+,"D4, D7, D8, D9, D10","5","1N4148WQ-13-F","Diode_SMD:D_SOD-123",
+,"D5","1","D_Zener","Diode_SMD:D_SOD-323F",
+,"D6","1","EVVO SS16","Diode_SMD:D_SMA",
+,"D11, D12, D13","3","ESD051-1F4","Diode_SMD:D_0201_0603Metric",
+,"H1, H2, H3, H4","4","MountingHole","MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom",
+,"J1","1","USB_C_Receptacle_USB2.0","Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500",
+,"J2","1","20021511-00006T4LF",,
+,"J3","1","JST_PH","Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical",
+,"J4","1","Conn_01x04","Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical",
+,"JP1","1","BQ76905_Bypass","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+,"L1","1","1u","Inductor_SMD:L_Sunlord_MWSA0402S",
+,"Q1","1","2N7002","Package_TO_SOT_SMD:SOT-23",
+,"Q2, Q3","2","NMOS","Package_TO_SOT_SMD:SOT-23",
+,"Q4","1","PMOS","Package_TO_SOT_SMD:SOT-23",
+,"R1, R2, R16, R34, R35, R36, R38, R41","8","10k","Resistor_SMD:R_0402_1005Metric",
+,"R3, R4, R5","3","5.1k","Capacitor_SMD:C_0402_1005Metric",
+,"R6, R31, R32","3","5.1k","Resistor_SMD:R_0402_1005Metric",
+,"R7, R9, R11, R17, R18, R19, R20, R33, R39, R42","10","100k","Resistor_SMD:R_0402_1005Metric",
+,"R8","1","1M","Resistor_SMD:R_0402_1005Metric",
+,"R10, R26, R28, R29","4","100","Resistor_SMD:R_0402_1005Metric",
+,"R12","1","127k","Resistor_SMD:R_0402_1005Metric",
+,"R13","1","5.24k","Resistor_SMD:R_0402_1005Metric",
+,"R14","1","30.31k","Resistor_SMD:R_0402_1005Metric",
+,"R15","1","6.04k","Resistor_SMD:R_0402_1005Metric",
+,"R21, R22, R23, R24, R25","5","10","Resistor_SMD:R_0402_1005Metric",
+,"R27","1","1m","Resistor_SMD:R_0402_1005Metric",
+,"R30","1","0","Resistor_SMD:R_0402_1005Metric",
+,"R37","1","NP","Resistor_SMD:R_0402_1005Metric",
+,"R40","1","20k","Resistor_SMD:R_0402_1005Metric",
+,"R43, R44","2","68m","Resistor_SMD:R_0402_1005Metric",
+,"SW1","1","Reset","Switch:Tactile_5.5mmx2.85mm",
+,"SW2","1","Boot","Switch:Tactile_5.5mmx2.85mm",
+,"SW3","1","1825027-8","Button_THT:SW2_1825027-C_TEC",
+,"U1, U5","2","TPS22810DRV","Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm",
+,"U2, U3","2","DMG6602SVTQ","Package_TO_SOT_SMD:TSOT-23-6",
+,"U4","1","TLV493DA1B6HTSA2","Package_TO_SOT_SMD:SOT-23-6",
+,"U6","1","BQ76905","Package_DFN_QFN:UQFN-20-1EP_3x3mm_P0.4mm_EP1.85x1.85mm",
+,"U7","1","AZ1117-3.3","Package_TO_SOT_SMD:SOT-223",
+,"U8","1","ESP32-S3-MINI-1-N8","XCVR_ESP32-S3-MINI-1-N8:XCVR_ESP32-S3-MINI-1-N8",
