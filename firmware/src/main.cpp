@@ -48,7 +48,7 @@ void setup()
 
   server.on("/", handle_root);
   server.on("/scripts.js", handle_js);
-  server.on("/styles.css", handle_css);  
+  server.on("/styles.css", handle_css);
   server.on("/battery.html", handle_battery);
   server.begin();
   // IPAddress ip = WiFi.localIP();

@@ -109,9 +109,7 @@ def convert_html(html_file_path):
     var_name = extract_filename(html_file_path)
     html_contents = format_c_header(html_contents, var_name)
     write_to_file(html_contents, "firmware/include/"+var_name+".h")
-    
-def convert_css(css_file_path):
-    pass
+
 
 convert_js_css("firmware/webpage/styles.css")
 convert_js_css("firmware/webpage/scripts.js")

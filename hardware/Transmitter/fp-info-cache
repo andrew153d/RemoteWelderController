@@ -1,4 +1,4 @@
-22564449911780204
+22567878254488797
 18650
 254 clip
 
@@ -82235,6 +82235,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Potentiometer
+Potentiometer_Bourns_PVT111-3
+
+
+0
+6
+3
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -93505,6 +93512,13 @@ XCVR_ESP32-C3-MINI-1-N4
 0
 61
 61
+XCVR_ESP32-S3-MINI-1-N8
+XCVR_ESP32-S3-MINI-1-N8
+
+
+0
+73
+65
 XT30-U
 XT30-U
 
